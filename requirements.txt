@@ -1,0 +1,12 @@
+transformers==4.41.0
+sentence-transformers==2.7.0
+jieba==0.42.1
+pandas==2.2.2
+torch==2.1.2+cu118 
+torchvision==0.18.0+cu118
+torchaudio==2.3.0+cu118
+numpy==1.26.4
+scikit-learn==1.5.0
+tqdm==4.66.4
+onnxruntime==1.17.1
+openvino==2024.1.0

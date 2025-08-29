@@ -1,0 +1,336 @@
+Sun Aug 17 10:09:43 2025,少人口？,0.0153
+Sun Aug 17 10:10:52 2025,What is the population of China,0.0152
+Sun Aug 17 10:11:25 2025,The rise of globalization has ... M&amp;A. On a global basis, the value of cross-border mergers and acquisitions rose seven-fold during the 1990s. In 1997 alone, there were over 2,333 cross-border transactions, worth a total of approximately $298 billion....The rise of globalization has exponentially increased the necessity for agencies such as the Mergers and Acquisitions International Clearing (MAIC), trust accounts and securities clearing services for Like-Kind Exchanges for cross-border M&A. On a global basis, the value of cross-border mergers and acquisitions rose seven-fold during the 1990s. In 1997 alone, there were over 2,333 cross-border transactions, worth a total of approximately $298 billion. In recent years, these types of acquisitions have become common in the technology industry, where major web companies such as Facebook, Twitter, and Yahoo! have frequently used talent acquisitions to add expertise in particular areas to their workforces. Merger of equals is often a combination of companies of a similar size. Since 1990, there have been more than 625 M&A transactions announced as mergers of equals with a total value of US$2,164.4 bil. Discard both legacy names and adopt a totally new one. The classic example is the merger of Bell Atlantic with GTE, which became Verizon Communications. Not every merger with a new name is successful. By consolidating into YRC Worldwide, the company lost the considerable value of both Yellow Freight and Roadway Corp. The factors influencing brand decisions in a merger or acquisition transaction can range from political to tactical. Until 2018, around 280,472 cross-border deals have been conducted, which cumulates to a total value of almost US$24,069 billion. The rise of globalization has exponentially increased the necessity for agencies such as the Mergers and Acquisitions International Clearing (MAIC), trust accounts and securities clearing services for Like-Kind Exchanges for cross-border M&A. On a global basis, the value of cross-border mergers and acquisitions rose seven-fold during the 1990s. Since 1990, there have been more than 625 M&A transactions announced as mergers of equals with a total value of US$2,164.4 bil. Some of the largest mergers of equals took place during the dot-com bubble of the late 1990s and in the year 2000: AOL and Time Warner (US$164 bil.), SmithKline Beecham and Glaxo Wellcome (US$75 bil.), Citicorp and Travelers Group (US$72 bil.). More recent examples this type of combinations are DuPont and Dow Chemical (US$62 bil.) and Praxair and Linde (US$35 bil.).。,0.0202
+Sun Aug 17 10:11:52 2025,How many states does the United States have,0.0277
+Sun Aug 17 10:12:24 2025,美国有几个洲,0.0143
+Sun Aug 17 10:12:37 2025,中国有多少人,0.0132
+Sun Aug 17 10:12:52 2025,中国10月1日是什么节,0.0159
+Sun Aug 17 10:13:34 2025,What are the important holidays in the United States,0.0142
+Sun Aug 17 10:14:19 2025,American history,0.0131
+Sun Aug 17 10:15:57 2025,Who is the current president of the United States?,0.0129
+Sun Aug 17 10:18:47 2025,What is the population of the United States,0.0156,0.00
+Sun Aug 17 10:19:15 2025,How many states are there in the United States,0.0248,0.00
+Sun Aug 17 10:19:36 2025,,0.0143,0.00
+Sun Aug 17 10:19:36 2025,,0.0133,0.00
+Sun Aug 17 10:19:37 2025,,0.0131,0.00
+Sun Aug 17 10:19:37 2025,,0.0133,0.00
+Sun Aug 17 10:19:37 2025,,0.0128,0.00
+Sun Aug 17 10:19:37 2025,,0.0130,0.00
+Sun Aug 17 10:19:37 2025,参考知识,0.0136,0.00
+Sun Aug 17 10:19:38 2025,个性指令,0.0136,0.00
+Sun Aug 17 10:19:38 2025,深度思考,0.0146,0.00
+Sun Aug 17 10:19:38 2025,10/5000,0.0137,0.00
+Sun Aug 17 10:27:45 2025,参考知识,0.0265,0.00
+Sun Aug 17 10:27:45 2025,个性指令,0.0142,0.00
+Sun Aug 17 10:27:46 2025,深度思考,0.0144,0.00
+Sun Aug 17 10:27:46 2025,5/5000,0.0142,0.00
+Sun Aug 17 10:28:01 2025,How many states are there in the United StatesAmerica's Continents,0.0151,0.00
+Sun Aug 17 10:30:16 2025,America's Continents,0.0157,0.00
+Sun Aug 17 10:32:52 2025,import jieba,0.0153,0.00
+Sun Aug 17 10:32:52 2025,import jieba.posseg as pseg,0.0131,0.00
+Sun Aug 17 10:32:53 2025,from config import Config,0.0128,0.00
+Sun Aug 17 10:32:53 2025,,0.0129,0.00
+Sun Aug 17 10:32:53 2025,class UniversalDialogueTracker:,0.0134,0.00
+Sun Aug 17 10:32:53 2025,    def __init__(self):,0.0132,0.00
+Sun Aug 17 10:32:53 2025,        self.history = [],0.0130,0.00
+Sun Aug 17 10:32:53 2025,        # 加载领域词典,0.0133,0.00
+Sun Aug 17 10:32:53 2025,        try:,0.0131,0.00
+Sun Aug 17 10:32:53 2025,            jieba.load_userdict(Config.DOMAIN_DICT_PATH),0.0130,0.00
+Sun Aug 17 10:32:53 2025,        except FileNotFoundError:,0.0134,0.00
+Sun Aug 17 10:32:53 2025,            print(f"警告: 领域词典文件 {Config.DOMAIN_DICT_PATH} 不存在，将使用默认分词"),0.0134,0.00
+Sun Aug 17 10:32:53 2025,    ,0.0132,0.00
+Sun Aug 17 10:32:53 2025,    def resolve_references(self, query):,0.0133,0.00
+Sun Aug 17 10:32:53 2025,        """基础指代消解""",0.0130,0.00
+Sun Aug 17 10:32:53 2025,        if not self.history:,0.0142,0.00
+Sun Aug 17 10:32:53 2025,            self.history.append({"query": query}),0.0139,0.00
+Sun Aug 17 10:32:53 2025,            return query,0.0138,0.00
+Sun Aug 17 10:32:53 2025,        ,0.0124,0.00
+Sun Aug 17 10:32:53 2025,        # 处理简单指代（如"它"、"这个"）,0.0145,0.00
+Sun Aug 17 10:32:53 2025,        last_entities = self.get_last_entities(),0.0135,0.00
+Sun Aug 17 10:32:53 2025,        ,0.0139,0.00
+Sun Aug 17 10:32:53 2025,        # 处理"它"、"这个"等指代,0.0128,0.00
+Sun Aug 17 10:32:53 2025,        if "它" in query or "这个" in query:,0.0129,0.00
+Sun Aug 17 10:32:53 2025,            if last_entities:,0.0125,0.00
+Sun Aug 17 10:32:53 2025,                return query.replace("它", last_entities[0]).replace("这个", last_entities[0]),0.0150,0.00
+Sun Aug 17 10:32:53 2025,        ,0.0139,0.00
+Sun Aug 17 10:32:53 2025,        # 处理"呢?"等省略问法,0.0128,0.00
+Sun Aug 17 10:32:53 2025,        if "呢" in query and len(query.strip()) <= 2:,0.0134,0.00
+Sun Aug 17 10:32:53 2025,            if last_entities:,0.0127,0.00
+Sun Aug 17 10:32:53 2025,                return f"{last_entities[0]}的情况如何",0.0128,0.00
+Sun Aug 17 10:32:53 2025,        ,0.0129,0.00
+Sun Aug 17 10:32:53 2025,        self.history.append({"query": query}),0.0126,0.00
+Sun Aug 17 10:32:53 2025,        return query,0.0130,0.00
+Sun Aug 17 10:32:53 2025,    ,0.0134,0.00
+Sun Aug 17 10:32:53 2025,    def get_last_entities(self):,0.0132,0.00
+Sun Aug 17 10:32:53 2025,        """获取上一轮对话的实体""",0.0129,0.00
+Sun Aug 17 10:32:53 2025,        if not self.history:,0.0140,0.00
+Sun Aug 17 10:32:53 2025,            return [],0.0148,0.00
+Sun Aug 17 10:32:54 2025,        ,0.0137,0.00
+Sun Aug 17 10:32:54 2025,        # 简单实现：返回上轮查询中的名词,0.0127,0.00
+Sun Aug 17 10:32:54 2025,        last_query = self.history[-1]["query"],0.0139,0.00
+Sun Aug 17 10:32:54 2025,        words = pseg.cut(last_query),0.0155,0.00
+Sun Aug 17 10:33:12 2025,        return [word for word, flag in words if flag.startswith('n') and word not in Config.STOP_WORDS]America's Continents,0.0152,0.00
+Sun Aug 17 10:34:40 2025,import time,0.0154
+Sun Aug 17 10:34:40 2025,from universal_parser import UniversalParser,0.0139
+Sun Aug 17 10:34:41 2025,from universal_rag_engine import UniversalRAGEngine,0.0135
+Sun Aug 17 10:34:41 2025,from universal_dialogue_tracker import UniversalDialogueTracker,0.0133
+Sun Aug 17 10:34:41 2025,from error_handler import ErrorHandler,0.0129
+Sun Aug 17 10:34:41 2025,,0.0140
+Sun Aug 17 10:34:41 2025,class BasePipeline:,0.0137
+Sun Aug 17 10:34:41 2025,    def __init__(self):,0.0139
+Sun Aug 17 10:34:41 2025,        print("初始化通用问答系统..."),0.0154
+Sun Aug 17 10:34:41 2025,        self.parser = UniversalParser(),0.0139
+Sun Aug 17 10:34:41 2025,        self.engine = UniversalRAGEngine(),0.0135
+Sun Aug 17 10:34:41 2025,        self.dialogue_tracker = UniversalDialogueTracker(),0.0140
+Sun Aug 17 10:34:41 2025,        self.error_handler = ErrorHandler(),0.0138
+Sun Aug 17 10:34:41 2025,        self.performance_log = "performance.log",0.0126
+Sun Aug 17 10:34:41 2025,        ,0.0126
+Sun Aug 17 10:34:41 2025,    def process(self, user_query, crag_data, session_id=None):,0.0134
+Sun Aug 17 10:34:41 2025,        """通用问题处理流程""",0.0134
+Sun Aug 17 10:34:41 2025,        start_time = time.time(),0.0146
+Sun Aug 17 10:34:41 2025,        try:,0.0124
+Sun Aug 17 10:34:41 2025,            # 1. 对话状态管理,0.0130
+Sun Aug 17 10:34:41 2025,            resolved_query = self.dialogue_tracker.resolve_references(user_query),0.0134
+Sun Aug 17 10:34:41 2025,            ,0.0131
+Sun Aug 17 10:34:41 2025,            # 2. 语义解析,0.0133
+Sun Aug 17 10:34:41 2025,            parsed = self.parser.parse(resolved_query),0.0127
+Sun Aug 17 10:34:41 2025,            ,0.0129
+Sun Aug 17 10:34:41 2025,            # 3. 构建检索查询,0.0142
+Sun Aug 17 10:34:41 2025,            search_query = self.parser.build_search_query(parsed),0.0141
+Sun Aug 17 10:34:41 2025,            ,0.0125
+Sun Aug 17 10:34:41 2025,            # 4. 检索相关文档,0.0135
+Sun Aug 17 10:34:41 2025,            relevant_docs = self.engine.retrieve(search_query, crag_data),0.0138
+Sun Aug 17 10:34:41 2025,            ,0.0141
+Sun Aug 17 10:34:41 2025,            # 5. 生成答案,0.0128
+Sun Aug 17 10:34:41 2025,            answer = self.engine.generate_answer(resolved_query, relevant_docs),0.0143
+Sun Aug 17 10:34:41 2025,            ,0.0145
+Sun Aug 17 10:34:41 2025,            # 记录性能,0.0127
+Sun Aug 17 10:34:41 2025,            latency = time.time() - start_time,0.0133
+Sun Aug 17 10:34:41 2025,            self.monitor_performance(user_query, latency),0.0122
+Sun Aug 17 10:34:41 2025,            ,0.0129
+Sun Aug 17 10:34:41 2025,            return answer,0.0140
+Sun Aug 17 10:34:42 2025,        except Exception as e:,0.0140
+Sun Aug 17 10:34:42 2025,            latency = time.time() - start_time,0.0124
+Sun Aug 17 10:34:42 2025,            self.monitor_performance(user_query, latency),0.0136
+Sun Aug 17 10:34:42 2025,            self.error_handler.log_error(e, user_query),0.0122
+Sun Aug 17 10:34:42 2025,            return self.handle_error(e, user_query),0.0120
+Sun Aug 17 10:34:42 2025,,0.0125
+Sun Aug 17 10:34:42 2025,    def handle_error(self, error, query):,0.0131
+Sun Aug 17 10:34:42 2025,        """通用错误处理""",0.0133
+Sun Aug 17 10:34:42 2025,        # 返回友好提示,0.0132
+Sun Aug 17 10:34:42 2025,        error_types = {,0.0133
+Sun Aug 17 10:34:42 2025,            "IndexError": "处理您的查询时遇到数据问题",,0.0129
+Sun Aug 17 10:34:42 2025,            "KeyError": "系统配置可能存在问题",,0.0128
+Sun Aug 17 10:34:42 2025,            "ValueError": "查询格式可能不符合要求",0.0125
+Sun Aug 17 10:34:42 2025,        },0.0126
+Sun Aug 17 10:34:42 2025,        ,0.0133
+Sun Aug 17 10:34:42 2025,        error_name = type(error).__name__,0.0121
+Sun Aug 17 10:34:42 2025,        return f"抱歉，{error_types.get(error_name, '处理您的请求时出现问题')}，请尝试简化问题或换种问法",0.0122
+Sun Aug 17 10:34:42 2025,,0.0135
+Sun Aug 17 10:34:42 2025,    def monitor_performance(self, query, latency):,0.0126
+Sun Aug 17 10:34:42 2025,        """性能监控""",0.0127
+Sun Aug 17 10:34:42 2025,        try:,0.0145
+Sun Aug 17 10:34:42 2025,            with open(self.performance_log, "a", encoding="utf-8") as f:,0.0128
+Sun Aug 17 10:34:42 2025,                f.write(f"{time.ctime()},{query},{latency:.4f}\n"),0.0138
+Sun Aug 17 10:34:42 2025,        except Exception as e:,0.0132
+Sun Aug 17 10:35:07 2025,            print(f"无法记录性能日志: {str(e)}")How many states does the United States have,0.0148
+Sun Aug 17 10:35:11 2025,How many states does the United States have,0.0136
+Sun Aug 17 10:35:41 2025,How many countries are there in the world,0.0137
+Sun Aug 17 12:07:45 2025,The United States has several states,0.0303
+Sun Aug 17 13:15:06 2025,The United States has several states,1.7703
+Sun Aug 17 13:16:28 2025,Which is the best mobile phone in the United States ,1.5373
+Sun Aug 17 13:17:12 2025,,0.1729
+Sun Aug 17 13:17:25 2025,中国有多少人,1.5594
+Sun Aug 17 13:19:24 2025,为最新的手机是哪台,1.4942
+Sun Aug 17 13:19:56 2025,中国有几个省,1.5116
+Sun Aug 17 13:20:45 2025,现在是什么时间,1.2273
+Sun Aug 17 13:21:11 2025,中国十月一日是什么日子,1.4818
+Sun Aug 17 13:22:12 2025,上周的账单是多少,1.3336
+Sun Aug 17 13:22:36 2025,请记住，上周的账单是300元,1.6486
+Sun Aug 17 13:23:30 2025,如果上周的账单增加300元，那么上周的账单总共是多少,1.4658
+Sun Aug 17 13:24:12 2025,如果再增加1000元是多少,1.5548
+Sun Aug 17 13:24:59 2025,不对,1.1343
+Sun Aug 17 13:26:11 2025,中国最好的大学是？,1.5500
+Sun Aug 17 13:52:19 2025,上周的账单是300元,0.0190
+Sun Aug 17 13:55:47 2025,中国多少人,0.0187
+Sun Aug 17 14:06:31 2025,中国有多少人,0.0240
+Sun Aug 17 14:10:39 2025,中国有多少人,0.0179
+Sun Aug 17 14:17:51 2025,中国有多少人,0.0188
+Sun Aug 17 14:19:38 2025,中国有多少人,0.0181
+Sun Aug 17 14:25:08 2025,中国有多少人,1.8410
+Sun Aug 17 14:25:34 2025,美国有多少人,1.6931
+Sun Aug 17 14:26:00 2025,中国10月1日是什么节日,1.7962
+Sun Aug 17 14:30:04 2025,中国的历史,1.7811
+Sun Aug 17 14:30:26 2025,,1.5686
+Sun Aug 17 14:30:35 2025,目前的时间,1.5612
+Sun Aug 17 14:57:17 2025,上周的账单是300元,0.0000,cache_miss
+Sun Aug 17 14:57:27 2025,中国有多少人,0.0000,cache_miss
+Sun Aug 17 14:58:03 2025,美少个洲,0.0000,cache_miss
+Sun Aug 17 15:01:59 2025,中国有多少人,2.6311,cache_miss
+Sun Aug 17 15:02:46 2025,美国有多少人,2.4724,cache_miss
+Sun Aug 17 15:02:57 2025,中国的历史,2.5017,cache_miss
+Sun Aug 17 15:03:24 2025,上周的账单是300元，请记住,2.5707,cache_miss
+Sun Aug 17 15:03:48 2025,上周账单多少？,2.4188,cache_miss
+Sun Aug 17 15:04:23 2025,中国有多少人,2.4549,cache_miss
+Sun Aug 17 15:04:37 2025,美国有多少人,2.4610,cache_miss
+Sun Aug 17 15:05:14 2025,美国人数,2.4509,cache_miss
+Sun Aug 17 15:06:31 2025,上周受到的账单,2.3949,cache_miss
+Sun Aug 17 15:06:47 2025,上周收到的账单,2.4042,cache_miss
+Sun Aug 17 15:07:26 2025,中国GDP是多少,2.4594,cache_miss
+Sun Aug 17 15:08:10 2025,美国的GDP多少,2.4277,cache_miss
+Sun Aug 17 15:18:21 2025,中国多少人口,5.0100,cache_miss
+Sun Aug 17 15:18:53 2025,对，少了,4.4691,cache_miss
+Sun Aug 17 15:19:13 2025,上周账单是300元,4.9333,cache_miss
+Sun Aug 17 15:20:36 2025,1+1等于多少,4.9636,cache_miss
+Sun Aug 17 15:21:56 2025,请记住，上周的账单是300元,4.9803,cache_miss
+Sun Aug 17 15:22:55 2025,上周账单多少,4.6545,cache_miss
+Sun Aug 17 15:23:13 2025,中国人口多少,4.9029,cache_miss
+Sun Aug 17 15:24:04 2025,中国多少人口,4.8847,cache_miss
+Sun Aug 17 15:26:13 2025,目前最好的手机是？,5.1798,cache_miss
+Sun Aug 17 15:30:38 2025,中国多少人口,2.5997,cache_miss
+Sun Aug 17 15:37:55 2025,中国多少人口,3.7386,cache_miss
+Sun Aug 17 15:38:08 2025,美国呢,4.6807,cache_miss
+Sun Aug 17 15:43:24 2025,有多少中国,0.6994,cache_miss
+Sun Aug 17 15:43:39 2025,中国有多少人,2.7775,cache_miss
+Sun Aug 17 15:43:48 2025,美国呢,4.6423,cache_miss
+Sun Aug 17 15:48:27 2025,中国多少人口,0.7922,cache_miss
+Sun Aug 17 15:48:34 2025,美国呢,0.8077,cache_miss
+Sun Aug 17 15:48:44 2025,GDP呢,3.3178,cache_miss
+Sun Aug 17 15:49:06 2025,中国GDP多少,0.7647,cache_miss
+Sun Aug 17 15:49:12 2025,美国呢,0.0000,cache_hit
+Sun Aug 17 15:49:23 2025,美国呢,0.0000,cache_hit
+Sun Aug 17 15:49:41 2025,美国GDP多少,4.7615,cache_miss
+Sun Aug 17 15:49:57 2025,美国GDP多少,0.0000,cache_hit
+Sun Aug 17 15:50:03 2025,中国呢,0.7625,cache_miss
+Sun Aug 17 15:50:14 2025,日本呢,0.6688,cache_miss
+Sun Aug 17 15:50:39 2025,中国和日本差多少,4.8828,cache_miss
+Sun Aug 17 15:50:58 2025,中国人口多少,2.5015,cache_miss
+Sun Aug 17 15:51:01 2025,日本呢,0.0000,cache_hit
+Sun Aug 17 15:51:37 2025,日本多少人,0.5409,cache_miss
+Sun Aug 17 15:51:42 2025,中国呢,0.0000,cache_hit
+Sun Aug 17 17:45:07 2025,中国有多少人口,0.1190,cache_miss
+Sun Aug 17 17:45:19 2025,美国有多少洲,0.0325,cache_miss
+Sun Aug 17 17:56:13 2025,中国有多少人1,0.1156,cache_miss
+Sun Aug 17 18:07:23 2025,中国多少人口,0.0223,cache_miss
+Sun Aug 17 18:09:03 2025,中国有多少人,0.8585,cache_miss
+Sun Aug 17 18:09:15 2025,美国呢,3.7287,cache_miss
+Sun Aug 17 18:09:26 2025,中国有多少人口,0.7132,cache_miss
+Sun Aug 17 18:09:39 2025,人数,0.3572,cache_miss
+Sun Aug 17 18:09:51 2025,美国有多少人口,0.7419,cache_miss
+Sun Aug 17 18:10:29 2025,美国有几个洲,1.4242,cache_miss
+Sun Aug 17 18:19:58 2025,中国有几个省,0.0189,cache_miss
+Sun Aug 17 18:27:08 2025,中国有多少人,1.8807
+Sun Aug 17 18:27:19 2025,美国呢,1.5763
+Sun Aug 17 18:27:33 2025,美国有多少人,1.6974
+Sun Aug 17 18:27:50 2025,美国与中国比较,1.7860
+Sun Aug 17 18:31:36 2025,e与jordon相比,1.6764
+Sun Aug 17 18:32:12 2025,科比与乔丹相比,1.7619
+Mon Aug 18 16:53:59 2025,中国有多少人,0.0000
+Mon Aug 18 16:54:15 2025,美国有多少个州,0.0136
+Mon Aug 18 17:14:49 2025,中国多少人口,0.0001
+Mon Aug 18 17:20:21 2025,中国有多少人,1.8423
+Mon Aug 18 17:21:14 2025,人口数量不对，是13亿,0.0000
+Mon Aug 18 17:22:09 2025,记住，上周账单是300元,0.0000
+Mon Aug 18 17:22:22 2025,国人口,0.0000
+Mon Aug 18 17:23:50 2025,美国人口多少,1.8433
+Mon Aug 18 17:24:23 2025,美国多少人口,0.0000
+Mon Aug 18 17:24:56 2025,中国人口,0.0000
+Mon Aug 18 17:26:13 2025,1,0.0000
+Mon Aug 18 17:42:25 2025,中国有多少人,1.8863
+Tue Aug 19 10:24:53 2025,中国多少人口,1.8550
+Tue Aug 19 10:26:14 2025,美国有几个州,1.8275
+Tue Aug 19 10:26:39 2025,美国有多少人,1.6836
+Tue Aug 19 10:27:59 2025,美国有多少人,0.0001
+Tue Aug 19 10:33:09 2025,美国有多少人,1.7535
+Tue Aug 19 10:34:08 2025,美国有多少人,1.6859
+Tue Aug 19 10:46:41 2025,美国多少人,1.8144
+Tue Aug 19 10:47:24 2025,美国有多少人,1.6913
+Tue Aug 19 10:47:55 2025,美国多少人,1.6901
+Tue Aug 19 10:48:29 2025,上周账单多少元,1.5999
+Tue Aug 19 10:49:58 2025,中国多少个省,1.8424
+Tue Aug 19 10:50:40 2025,中国多少个省,1.7042
+Tue Aug 19 10:51:41 2025,中国多少个省,1.7014
+Tue Aug 19 11:23:54 2025,美国多少人,1.7735
+Tue Aug 19 11:24:27 2025,4美国多少人,1.6925
+Wed Aug 20 10:35:20 2025,美国有多少人,1.8410
+Wed Aug 20 10:35:46 2025,美国有多少人,1.6874
+Wed Aug 20 10:39:51 2025,美国有多少人,1.8058
+Wed Aug 20 10:40:04 2025,中国有多少人,1.7235
+Wed Aug 20 10:40:30 2025,中国有多少人,0.0143
+Wed Aug 20 10:40:56 2025,美国有几个州,1.5712
+Wed Aug 20 10:42:05 2025,美国有多少人,1.7739
+Wed Aug 20 10:42:30 2025,美国有多少人,0.0138
+Wed Aug 20 10:48:34 2025,美国有多少人,0.0199
+Wed Aug 20 10:49:40 2025,美国有多少个州,1.8932
+Wed Aug 20 10:49:57 2025,它有多少个人,1.7005
+Wed Aug 20 11:03:08 2025,科比是什么运动员,1.7645
+Wed Aug 20 11:03:32 2025,他有什么成就,1.8668
+Wed Aug 20 11:04:17 2025,科比有什么成就,1.7064
+Wed Aug 20 11:04:36 2025,他身高多少,1.7134
+Wed Aug 20 11:12:44 2025,科比是什么运动员,1.8442
+Wed Aug 20 11:12:58 2025,他有什么成就,1.8685
+Wed Aug 20 11:20:48 2025,科比是什么运动员,1.9714
+Wed Aug 20 11:21:04 2025,他有什么成就,1.8795
+Thu Aug 21 10:05:47 2025,科比是什么运动员,1.9039
+Thu Aug 21 10:06:02 2025,他的成就有哪些,1.8685
+Thu Aug 21 12:24:49 2025,李白是什么人,4.3511
+Thu Aug 21 12:25:05 2025,他有什么代表作,4.4111
+Thu Aug 21 14:57:33 2025,李白是什么人,1.9799
+Thu Aug 21 14:57:49 2025,他有哪些代表作,1.6314
+Thu Aug 21 16:23:03 2025,科比是什么运动员,0.2235
+Thu Aug 21 16:32:36 2025,科比是什么运动员,0.2005
+Thu Aug 21 16:38:31 2025,李白是什么人,0.1898
+Thu Aug 21 16:41:38 2025,李白是什么人,0.1519
+Thu Aug 21 16:44:01 2025,杜甫是什么人,0.0228
+Thu Aug 21 16:49:11 2025,李白是什么人,0.2246
+Thu Aug 21 16:49:31 2025,科比是篮球运动员吗,0.0874
+Thu Aug 21 16:49:46 2025,美国有多少人,0.0599
+Thu Aug 21 16:50:05 2025,它的面积多少,1.2576
+Thu Aug 21 16:55:00 2025,李白是什么人,1.8321
+Thu Aug 21 16:55:13 2025,他的代表作有哪些,1.5873
+Thu Aug 21 16:55:32 2025,他与杜甫相比,1.7372
+Thu Aug 21 17:02:53 2025,孙中山是什么人,1.9522
+Thu Aug 21 17:03:17 2025,他生于哪一年,0.2382
+Thu Aug 21 17:03:36 2025,他有什么成就,1.8473
+Thu Aug 21 17:27:58 2025,科比是什么人,2.0927
+Thu Aug 21 17:28:13 2025,他和乔丹相比,1.8587
+Thu Aug 21 17:34:16 2025,科比是运动员吗,1.8501
+Thu Aug 21 17:34:39 2025,他和乔丹相比如何,0.0073
+Thu Aug 21 17:46:09 2025,科比是运动员吗,1.8775
+Thu Aug 21 17:46:25 2025,他和乔丹相比怎么样,1.6383
+Fri Aug 22 11:37:31 2025,李白有什么成就,1.6905
+Fri Aug 22 11:37:48 2025,他和杜甫相比如何,1.5897
+Fri Aug 22 11:45:18 2025,李白有什么成就,1.6948
+Fri Aug 22 11:45:40 2025,他和杜甫相比,1.6070
+Fri Aug 22 11:52:45 2025,科比获得几次总冠军,1.7977
+Fri Aug 22 12:10:31 2025,乔丹获得过几次总冠军,1.9177
+Fri Aug 22 12:10:56 2025,科比获得过几次总冠军,1.6917
+Fri Aug 22 12:11:20 2025,日本有多少人,1.1571
+Fri Aug 22 12:20:43 2025,中国有多少人,0.0230
+Fri Aug 22 12:21:05 2025,中国有多少人,0.0205
+Fri Aug 22 12:54:09 2025,中国有多少人,0.0187
+Fri Aug 22 13:48:47 2025,中国有多少人,0.0211
+Fri Aug 22 13:49:36 2025,中国有多少人,0.0267
+Fri Aug 22 14:17:46 2025,中国的历史,2.1521
+Fri Aug 22 14:59:48 2025,美国的历史,2.0499
+Sat Aug 23 10:07:16 2025,Let me introduce the history of the Qing Dynasty,2.1513
+Sat Aug 23 10:28:23 2025,深度学习和机器学习有什么区别和联系？,2.3377
+Sat Aug 23 16:38:21 2025,美国历史上有哪些总统,2.0929
+Sun Aug 24 14:40:47 2025,中国的历史,3.7800
+Tue Aug 26 16:06:25 2025,白居易是什么人,3.7054
+Tue Aug 26 16:06:47 2025,他和李白相比如何,3.4864
+Tue Aug 26 16:07:09 2025,中国有多少人,0.0438
+Tue Aug 26 16:07:38 2025,中国有多少人,0.0337
+Tue Aug 26 16:08:00 2025,中国有多少个省,3.3914
+Tue Aug 26 16:38:51 2025,李白是什么人,3.4987
+Tue Aug 26 16:39:06 2025,他和杜甫相比如何,3.4482
+Tue Aug 26 16:39:17 2025,中国有多少人,0.0364
+Tue Aug 26 16:39:39 2025,中国有多少人,0.0319
+Tue Aug 26 16:39:55 2025,美国有几个州,2.6657
+Tue Aug 26 16:40:11 2025,它和中国相比呢,3.3447
+Tue Aug 26 20:45:34 2025,白居易是什么人,3.5488
+Tue Aug 26 20:45:48 2025,他和杜甫相比,3.5552
+Tue Aug 26 20:46:13 2025,中国有多少人,0.0452
+Tue Aug 26 20:46:35 2025,中国有多少人,0.0334
+Tue Aug 26 20:49:30 2025,中国有多少人,0.0505
+Tue Aug 26 20:49:59 2025,中国有多少人,0.0344

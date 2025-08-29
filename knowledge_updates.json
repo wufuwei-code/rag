@@ -1,0 +1,7 @@
+{"query": "美国有多少人", "incorrect_answer": "根据美国人口普查局的数据，截至2022年，美国总共有331,703,816人。这包括了各州的人口总数和住房单位数。以下是美国各州的人口数量： - 加利福尼亚：2,324,322人 - 得克萨斯州：2,324,288人 - 佛罗里达州：2,264,931人 - 亚利桑那州：2,134,698人 -。", "correct_answer": "美国现在有3.4亿人", "documents": [{"snippet": "These are the 2022, 2021, and 2020 population figures of the individual states of the US; their 2022...", "similarity": 9.057336807250977, "doc_id": ""}, {"snippet": "These are the 2022, 2021, and 2020 population figures of the individual states of the US; their 2022...", "similarity": 9.057336807250977, "doc_id": ""}, {"snippet": "California, Texas, and Florida are the three most populated states, accounting for over a quarter of...", "similarity": 7.609989643096924, "doc_id": ""}], "timestamp": "2025-08-19T10:33:42.127189"}
+{"query": "中国有多少人", "correction": "中国有14亿人", "timestamp": "2025-08-22T12:20:57.416733"}
+{"query": "中国有多少人", "correction": "中国有14.5亿人", "timestamp": "2025-08-22T13:49:10.793134"}
+{"query": "中国有多少人", "correction": "中国有14.6亿人", "timestamp": "2025-08-26T16:07:23.295170"}
+{"query": "中国有多少人", "correction": "中国有14.5亿人", "timestamp": "2025-08-26T16:39:29.288789"}
+{"query": "中国有多少人", "correction": "中国有14.6亿人", "timestamp": "2025-08-26T20:46:25.035865"}
+{"query": "中国有多少人", "correction": "截至2024年，中国有14.08亿人", "timestamp": "2025-08-26T20:49:47.758845"}
